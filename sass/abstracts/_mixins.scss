@@ -1,0 +1,10 @@
+// mixin for flex layout
+@mixin flex($df: flex,$ai: center, $jc: flex-start){
+  display: $df;
+  align-items: $ai;
+  justify-content: $jc;
+}
+
+@mixin transition($property:all) {
+  transition: $property 0.4s ease;
+}

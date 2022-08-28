@@ -1,0 +1,40 @@
+.site-header {
+  background-color: $color-grey ;
+  color: $color-white;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+  // container
+  &__container {
+    @include flex;
+  }
+  // logo
+  &__logo {
+    margin-right: 3.125rem;
+  }
+
+  .logo {
+    @include flex ($jc:center);
+    background-color: $color-primary;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    &:hover{
+      opacity: 0.8;
+    }
+    &:active{
+      opacity: 0.6;
+    }
+  }
+  &__logo-image {
+    display: inline-block;
+    object-fit: contain;
+  }
+  // Auth
+  .auth {
+    display: flex;
+  }
+  &__auth{
+    margin-left: auto;
+  }
+}

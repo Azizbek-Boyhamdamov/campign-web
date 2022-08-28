@@ -1,0 +1,18 @@
+.sitenav {
+  color: darken($color-white, 20%);
+
+  &__list {
+    @include flex;
+    flex-wrap: wrap;
+  }
+  &__item:not(:last-child){
+    margin-right: 2.18rem;
+  }
+  &__link {
+    padding: 5px;
+    @include transition($property:color);
+    &:hover{
+      color: $color-white;
+    }
+  }
+}

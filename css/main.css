@@ -57,3 +57,112 @@ input {
   font-family: "Roboto", sans-serif;
   font-size: 0.875rem;
 }
+
+.container {
+  max-width: 71.25rem;
+  width: 1000%;
+  margin: 0 auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.auth__button {
+  display: inline-block;
+  padding: 15px 25px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.auth__button--border {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.auth__button--border:hover {
+  background-color: #fff;
+  color: #8d8d8d;
+}
+
+.sitenav {
+  color: #cccccc;
+}
+.sitenav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 2.18rem;
+}
+.sitenav__link {
+  padding: 5px;
+  -webkit-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+.sitenav__link:hover {
+  color: #fff;
+}
+
+.site-header {
+  background-color: #8d8d8d;
+  color: #fff;
+  padding-top: 1.25rem;
+  font-size: 1rem;
+}
+.site-header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.site-header__logo {
+  margin-right: 3.125rem;
+}
+.site-header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e76f51;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.site-header .logo:hover {
+  opacity: 0.8;
+}
+.site-header .logo:active {
+  opacity: 0.6;
+}
+.site-header__logo-image {
+  display: inline-block;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.site-header .auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-header__auth {
+  margin-left: auto;
+}
